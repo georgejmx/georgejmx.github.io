@@ -10,9 +10,7 @@ const addToolTip = function(number) {
     tooltipElement.id = `tooltip${number}`;
     tooltipElement.className = 'tooltip';
     tooltipElement.style.position = 'absolute';
-    tooltipElement.style.height = '15vh';
-    tooltipElement.style.width = '18vw';
-    tooltipElement.style.top = '7vw';
+    tooltipElement.style.top = '9vw';
     let currentInnerHTML;
     if (number == 1) {
       // Will change this to projects once ive done Abdul's
