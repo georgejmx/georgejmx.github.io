@@ -69,6 +69,7 @@ a {
   text-align: center;
   font-size: 22px;
   top: 25vh;
+  z-index: 10;
 }
 
 #popup {
@@ -151,6 +152,14 @@ a {
   font-family: 'Merriweather', sans-serif;
   font-size: 19px;
   line-height: 1.5;
+}
+
+/* Homepage for a small display */
+
+@media (max-height: 720px){
+  #welcome-image {
+    max-width: 300px;
+  }
 }
 
 /* Homepage: Education */
@@ -434,7 +443,7 @@ code {
   justify-content: top;
   padding: 10px;
   padding-top: 50px;
-  min-height: 675px;
+  min-height: 700px;
   height: 90vh;
 }
 
