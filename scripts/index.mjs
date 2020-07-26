@@ -22,10 +22,10 @@ const addToolTip = function(number) {
       `;
     } else if (number == 2) {
       currentInnerHTML = `
-      <p class="tooltip-text"><a href="skills.html#skills">
-      Take a look at my key skills</a></p>
       <p class="tooltip-text"><a href="skills.html#projects">
       Take a look at projects I have worked on</a></p>
+      <p class="tooltip-text"><a href="skills.html#skills">
+      Take a look at my key skills</a></p>
       `;
     } else if (number == 3) {
       currentInnerHTML = `
@@ -95,7 +95,5 @@ document.querySelectorAll(".homeCard").forEach(card => {
 document.querySelectorAll(".homeCard").forEach(card => {
   card.addEventListener('mouseout', e => {
     card.style.backgroundColor = '#ddd';
-    // const description = document.createElement('p');
-    // description.innerHTML = 'Learnt how to use JavaScript in depth..';
   })
 })
