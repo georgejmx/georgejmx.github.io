@@ -17,8 +17,8 @@ const addToolTip = function(number) {
       currentInnerHTML = `
       <p class="tooltip-text"><a href="#education">
       Take a look at my certifications</a></p>
-      <p class="tooltip-text"> <a href="skills.html#projects">
-      Take a look at my projects</a></p>
+      <p class="tooltip-text"> <a href="#web-projects">
+      Take a look at additional websites I have made</a></p>
       `;
       removeTooltip(2);
       removeTooltip(3);
