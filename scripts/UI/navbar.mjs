@@ -7,7 +7,7 @@ export function addNavbar() {
       <button class="nav-btn"><a href="index.html">Home</a></button>
       <div class="dropdown-content">
         <a class="nav-link" href="index.html#home-section">Welcome</a>
-        <a class="nav-link" href="index.html#education">Certifications</a>
+        <a class="nav-link" href="index.html#education">Certificates</a>
         <a class="nav-link" href="index.html#web-projects">Websites</a>
         <a class="nav-link" href="index.html#contact">Contact</a>
       </div>
