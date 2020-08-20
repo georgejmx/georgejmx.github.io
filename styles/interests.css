@@ -1,0 +1,173 @@
+/* Reviews */
+
+#reviews-section {
+  font-family: 'Raleway', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: stretch;
+  background-color: #a33;
+  top: 100px;
+  max-height: 80vh;
+}
+
+.reviews-divider {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: top;
+  padding: 10px;
+  padding-top: 50px;
+  min-height: 700px;
+  height: 90vh;
+}
+
+#media-div {
+  background-color: #333;
+  width: 65vw;
+}
+
+#info-div {
+  background-color: #7890a8;
+  width: 35vw;
+}
+
+#media-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: none;
+  justify-content: left;
+  align-items: baseline;
+  align-content: space-around;
+  padding: 5px;
+  width: 65vw;
+  overflow: scroll;
+  overflow-y: hidden;
+  overflow-x: visible;
+}
+
+#info-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: baseline;
+  align-content: space-around;
+  padding: 10px;
+  padding-right: 50px;
+}
+
+.tile {
+  display: block;
+  border-style: dotted;
+  background-color: #d77;
+  padding: 5px;
+  margin: 7px 7px;
+  max-height: 500px;
+  min-width: 200px;
+}
+
+.book {
+  background-color: #d77;
+}
+
+.book-img {
+  width: 180px;
+  height: 250px;
+}
+
+.film {
+  background-color: #393;
+}
+
+.film-img {
+  width: 150px;
+  height: 200px;
+}
+
+.reviews-button {
+  background-color: #0cc;
+  border-style: groove;
+  font-family: monospace;
+  font-size: 18px;
+}
+
+#current-review {
+  font: sans-serif;
+  font-size: 18px;
+  font-style: oblique;
+  line-height: 30px;
+  color: black;
+}
+
+.tile-title {
+  color: black;
+  font-size: 24px;
+}
+
+/* Images */
+
+.img-section {
+  width: 100%;
+  height: 95vh;
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: flex-end;
+  text-align: left;
+}
+
+.big-img {
+  position: absolute;
+  width: 100%;
+  height: 95vh;
+  z-index: 2;
+}
+
+.caption-box {
+  background-color: #304075;
+  min-height: 100px;
+  width: 33vw;
+  padding: 10px;
+  z-index: 4;
+  right: 0;
+}
+
+#images-subtitle {
+  color: #d22;
+  align-self: flex-start;
+  z-index: 3;
+}
+
+/* Button Section */
+
+#btn-section {
+  min-height: 40vh;
+  max-height: 40vh;
+}
+
+#btn-box {
+  display: flex;
+  height: 100px;
+  width: 500px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.images-btn {
+  display: block;
+  padding: 10px;
+  height: 60px;
+  width: 120px;
+  text-decoration: none;
+  font-family: 'Merriweather';
+  color: white;
+  background-color: #f91;
+  text-align: center;
+}
+
+#show-btn {
+  background-color: green;
+}
+
+#hide-btn {
+  background-color: grey;
+}

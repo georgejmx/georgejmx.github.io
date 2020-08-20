@@ -1,0 +1,86 @@
+/* Welcome Section */
+
+#welcome-section {
+  background-color: #304075;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+#welcome-box {
+  background-color: #304075;
+  border: 2px solid #f91;
+  width: 75vw
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+  width: 75vw;
+  padding-top: 10px;
+  padding-bottom: 10px
+}
+
+.cs-logo {
+  height: 100px;
+  width: auto;
+}
+
+#subtitle {
+  font-size: 30px;
+}
+
+/* Projects */
+
+#projects {
+  background-color: #999;
+}
+
+.project-card {
+  background-color: #334;
+  width: 240px;
+}
+
+/* Skills */
+
+#skills {
+  background-color: #7890a8;
+}
+
+.skill-card {
+  width: 200px;
+  background-color: #505055;
+}
+
+/* Code */
+
+#code-section {
+  align-items: flex-start;
+  text-align: left;
+  background-color: #222;
+  padding-left: 50px;
+}
+
+.code-box {
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  max-width: 715px;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 1.5;
+  background-color: #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  font-size: 10px;
+  height: 50vh;
+  overflow: scroll;
+  overflow-y: visible;
+  overflow-x: hidden;
+}

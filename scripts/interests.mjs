@@ -38,7 +38,7 @@ const film1 = new Film(
 );
 const film2 = new Film(
   "Cape Fear",
-  "Hey councillor, I out-philosophise you...",
+  "If you hang onto the past you die a little each day.",
   "Robert de Niro, Nick Nolte, Jessica Lange",
   `The 1991 remake of the classic story about a successful
   lawyer who's life is turned upside down by a convicted rapist who has been
