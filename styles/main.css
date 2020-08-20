@@ -200,7 +200,8 @@ header {
   /* Homepage */
 
   #home-section {
-    height: 60vh;
+    min-height: 60vh;
+    max-height: 60vh;
   }
   #popup {
     width: 81vw;
@@ -251,9 +252,6 @@ header {
 
   /* Interests */
 
-  #reviews-section {
-    max-height: 100vh;
-  }
   #tile {
     min-height: 60vh;
   }
