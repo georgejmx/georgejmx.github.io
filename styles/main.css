@@ -163,143 +163,75 @@ header {
 }
 
 /* Media queries */
-
-/* Home */
-
-@media (max-height: 800px){
-  #welcome-image {
-    max-width: 290px;
-  }
-  .popup-text {
-    font-size: 16px;
-  }
-  #intro-box {
-    bottom: 0px;
-  }
-  #intro {
-    line-height: normal;
-    font-size: 14px;
-  }
-  #main-header {
-    font-size: 30px;
-  }
-
-  #reviews-section {
-    max-height: 100vh;
-  }
-}
-
-@media (max-width: 770px){
+/* For smaller screens */
+@media (max-height: 700px){
   #popup {
     width: 81vw;
     left: 9vw;
     right: 10vw;
   }
-  .popup-items {
-    width: 27vw;
-  }
-  .tooltip {
-    width: 25vw;
-  }
   .popup-text {
-    font-size: 16px;
-  }
-}
-
-@media (max-height: 480px){
-  .popup-text {
-    font-size: 12px;
-  }
-  #main-header {
-    font-size: 20px;
-  }
-  #intro {
-    line-height: normal;
-    font-size: 12px;
-  }
-}
-@media (max-width: 700px){
-  .popup-text {
-    font-size: 14px;
-  }
-  #main-header {
-    font-size: 20px;
-  }
-  #intro {
-    line-height: normal;
-    font-size: 12px;
+    font-size: 15px;
   }
   .popup-items {
     top: 13vw;
   }
-}
-
-/* Skills */
-
-@media (min-width: 850px){
-  code {
-    font-size: 12px;
+  .tooltip {
+    width: 25vw;
   }
-}
-
-@media (max-width: 720px){
-  code {
-    font-size: 8.5px;
+  #intro-box {
+    bottom: 0px;
   }
-}
-
-@media (max-width: 600px){
-  #nav-img {
-    display: none;
+  #main-header {
+    font-size: 28px;
   }
-
-  .nav-link {
+  #intro {
     font-size: 14px;
-    padding: 0px;
+    line-height: normal;
   }
-
-  #email {
-    font-size: 12px;
-  }
-
-  code {
-    display: none;
+  #welcome-image {
+    max-width: 275px;
   }
 }
 
 /* For Mobile Devices */
-
-@media only screen and (max-device-width: 500px) {
+@media only screen and (max-device-width: 500px){
 
   /* Homepage */
 
   #home-section {
-    min-height: 60vh;
+    height: 60vh;
   }
-  
-  #main-header {
-    font-size: 20px;
-  }
-  #intro {
-    line-height: normal;
-    font-size: 12px;
-  }
-
   #popup {
     width: 81vw;
     left: 9vw;
     right: 10vw;
   }
+  .popup-text {
+    font-size: 14px;
+  }
   .popup-items {
+    top: 13vw;
     width: 27vw;
   }
   .tooltip {
     width: 25vw;
   }
-  .popup-text {
-    font-size: 14px;
+  #intro-box {
+    bottom: 0px;
+  }
+  #main-header {
+    font-size: 20px;
+  }
+  #intro {
+    font-size: 12px;
+    line-height: normal;
   }
 
+  .info-link {
+    font-size: 14px;
+    padding: 0px;
+  }
 
   /* Navbar */
 
@@ -309,9 +241,6 @@ header {
   .nav-link {
     font-size: 14px;
     padding: 0px;
-  }
-  #email {
-    font-size: 12px;
   }
 
   /* Skills */
@@ -325,4 +254,8 @@ header {
   #reviews-section {
     max-height: 100vh;
   }
+  #tile {
+    min-height: 60vh;
+  }
+
 }
