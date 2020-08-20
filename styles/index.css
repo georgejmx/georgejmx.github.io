@@ -1,7 +1,7 @@
 /* Welcome Page */
 
 #home-section {
-  min-height: 100vh;
+  height: 100vh;
   background-color: #304075;
   padding-left: 23px;
 }

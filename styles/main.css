@@ -164,7 +164,9 @@ header {
 
 /* Media queries */
 /* For smaller screens */
-@media (max-height: 700px){
+@media (max-height: 750px) {
+
+  /* Homepage */
   #popup {
     width: 81vw;
     left: 9vw;
@@ -192,16 +194,28 @@ header {
   #welcome-image {
     max-width: 275px;
   }
+
+  /* Interests */
+  #reviews-section {
+    height: 120vh;
+  }
 }
 
 /* For Mobile Devices */
 @media only screen and (max-device-width: 500px){
 
-  /* Homepage */
+  /* Navbar */
+  #nav-img {
+    display: none;
+  }
+  .nav-link {
+    font-size: 14px;
+    padding: 0px;
+  }
 
+  /* Homepage */
   #home-section {
-    min-height: 60vh;
-    max-height: 60vh;
+    height: 60vh;
   }
   #popup {
     width: 81vw;
@@ -234,24 +248,12 @@ header {
     padding: 0px;
   }
 
-  /* Navbar */
-
-  #nav-img {
-    display: none;
-  }
-  .nav-link {
-    font-size: 14px;
-    padding: 0px;
-  }
-
   /* Skills */
-
   code {
     font-size: 8.5px;
   }
 
   /* Interests */
-
   #tile {
     min-height: 60vh;
   }
