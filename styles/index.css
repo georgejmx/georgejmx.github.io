@@ -122,6 +122,12 @@
 .project-card {
   background-color: #334;
   width: 240px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 10px;
+  padding: 8px;
+  box-shadow: 0 15px 25px rgba(10,0,0,0.19),
+  0 6px 6px rgba(10,0,0,0.23);
 }
 
 /* Contact */
