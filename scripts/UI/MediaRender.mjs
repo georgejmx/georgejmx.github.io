@@ -1,4 +1,4 @@
-import { Media, Book, Film } from '../Elements/Media.mjs';
+import { Book, Film } from '../Elements/Media.mjs';
 
 export class MediaRender {
   constructor(mediaBlocks) {

@@ -2,7 +2,7 @@ import { addNavbar } from './UI/navbar.mjs';
 import { ImageRender } from './UI/ImageRender.mjs';
 import { MediaRender } from './UI/MediaRender.mjs';
 import { ImageBlock } from './Elements/ImageBlock.mjs';
-import { Media, Book, Film } from './Elements/Media.mjs';
+import { Book, Film } from './Elements/Media.mjs';
 
 addNavbar();
 
