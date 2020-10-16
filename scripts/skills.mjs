@@ -7,7 +7,7 @@ const welcomeBox = document.getElementById('welcome-box');
 welcomeBox.addEventListener('mouseenter', e => {
   document.getElementById('top-logos').innerHTML = `
   <img class="cs-logo" src="images/js-logo.png" alt="JavaScript logo"/>
-  <img class="cs-logo" src="images/htmlcss-logo.png" alt="HTML/CSS logos"/>
+  <img class="cs-logo" src="images/cs-logo.png" alt="C# logo"/>
   `;
   document.getElementById('bottom-logos').innerHTML = `
   <img class="cs-logo" src="images/python-logo.png" alt="Python logo"/>

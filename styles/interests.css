@@ -5,7 +5,6 @@
   display: flex;
   justify-content: center;
   align-items: stretch;
-  background-color: #a33;
   top: 100px;
   height: 100vh;
 }
@@ -22,7 +21,7 @@
 }
 
 #media-div {
-  background-color: #333;
+  background-color: #304075;
   width: 65vw;
 }
 

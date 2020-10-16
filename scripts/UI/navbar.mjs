@@ -7,8 +7,8 @@ export function addNavbar() {
       <button class="nav-btn"><a href="index.html">Home</a></button>
       <div class="dropdown-content">
         <a class="nav-link" href="index.html#home-section">Welcome</a>
-        <a class="nav-link" href="index.html#education">Certificates</a>
-        <a class="nav-link" href="index.html#web-projects">Websites</a>
+        <a class="nav-link" href="index.html#software">Side Projects</a>
+        <a class="nav-link" href="index.html#projects">Uni Code</a>
         <a class="nav-link" href="index.html#contact">Contact</a>
       </div>
     </div>
@@ -16,17 +16,17 @@ export function addNavbar() {
       <button class="nav-btn"><a href="skills.html">Skills</a></button>
       <div class="dropdown-content">
         <a class="nav-link" href="skills.html#welcome-section">About</a>
-        <a class="nav-link" href="skills.html#projects">Projects</a>
+        <a class="nav-link" href="skills.html#education">Education</a>
         <a class="nav-link" href="skills.html#skills">Key Skills</a>
       </div>
     </div>
     <div class="dropdown">
       <button class="nav-btn"><a href="interests.html">Interests</a></button>
       <div class="dropdown-content">
-        <a class="nav-link" href="interests.html#reviews-section">
-        Media Reviews</a>
         <a class="nav-link" href="interests.html#sydneycoastline">Images</a>
         <a class="nav-link" href="interests.html#btn-section">More Images</a>
+        <a class="nav-link" href="interests.html#reviews-section">
+        Media Reviews</a>
       </div>
     </div>
   `;

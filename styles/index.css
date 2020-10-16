@@ -95,27 +95,39 @@
   line-height: 1.5;
 }
 
-/* Education */
+/* Websites */
 
-#education {
+#software {
   background-color: #222;
 }
 
-.home-card {
-  width: 300px;
+.web-card {
   background-color: #ddd;
+  width: 240px;
+  min-width: 40vw;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 10px;
+  padding: 8px;
+  box-shadow: 0 15px 25px rgba(10,0,0,0.19),
+  0 6px 6px rgba(10,0,0,0.23);
 }
 
-/* Websites */
+/* Projects 2 */
 
-#web-projects {
+#projects {
   background-color: #999;
 }
 
-.web-card {
+.project-card {
   background-color: #334;
   width: 240px;
-  min-width: 40vw;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin: 10px 10px;
+  padding: 8px;
+  box-shadow: 0 15px 25px rgba(10,0,0,0.19),
+  0 6px 6px rgba(10,0,0,0.23);
 }
 
 /* Contact */

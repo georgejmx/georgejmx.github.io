@@ -23,9 +23,9 @@ export class ImageBlock {
         <p>${this.info}</p>
       </div>
     `;
-    const form = document.getElementById('btn-section');
+    const _btnSection = document.getElementById('btn-section');
     if (this.isFirst) {
-      document.getElementById('body').insertBefore(_imgBlock, form);
+      document.getElementById('body').insertBefore(_imgBlock, _btnSection);
     } else {
       document.getElementById('body').appendChild(_imgBlock);
     };

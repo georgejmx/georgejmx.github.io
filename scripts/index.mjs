@@ -13,19 +13,18 @@ const addToolTip = function(number) {
     tooltipElement.style.top = '9vw';
     let currentInnerHTML;
     if (number == 1) {
-      // Will change this to projects once ive done Abdul's
       currentInnerHTML = `
-      <p class="tooltip-text"><a href="#education">
-      Take a look at my certifications</a></p>
-      <p class="tooltip-text"> <a href="#web-projects">
-      Take a look at additional websites I have made</a></p>
+      <p class="tooltip-text"> <a href="#software">
+      Take a look at software I have recently created</a></p>
+      <p class="tooltip-text"><a href="#projects">
+      Take a look at coding I did at university</a></p>
       `;
       removeTooltip(2);
       removeTooltip(3);
     } else if (number == 2) {
       currentInnerHTML = `
-      <p class="tooltip-text"><a href="skills.html#projects">
-      Take a look at projects I have worked on</a></p>
+      <p class="tooltip-text"><a href="skills.html#education">
+      Take a look at certificates I have obtained/am working towards</a></p>
       <p class="tooltip-text"><a href="skills.html#skills">
       Take a look at my key skills</a></p>
       `;
@@ -33,10 +32,10 @@ const addToolTip = function(number) {
       removeTooltip(3);
     } else if (number == 3) {
       currentInnerHTML = `
-      <p class="tooltip-text"><a href="interests.html#reviews-section">
-      Take a look at what i've been watching and reading</a></p>
       <p class="tooltip-text"><a href="interests.html#sydneycoastline">
       Take a look at some images I have taken</a></p>
+      <p class="tooltip-text"><a href="interests.html#reviews-section">
+      Take a look at what i've been watching and reading</a></p>
       `;
       removeTooltip(1);
       removeTooltip(2);
@@ -91,15 +90,3 @@ document.getElementById('popup3').addEventListener('mouseover', e => {
   addToolTip(3);
   clearHelper();
 });
-
-document.querySelectorAll(".homeCard").forEach(card => {
-  card.addEventListener('mouseover', e => {
-    card.style.backgroundColor = '#f91';
-  })
-})
-
-document.querySelectorAll(".homeCard").forEach(card => {
-  card.addEventListener('mouseout', e => {
-    card.style.backgroundColor = '#ddd';
-  })
-})
